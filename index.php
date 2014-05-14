@@ -1,3 +1,11 @@
+<!--
+	Developed by Mr. Alien
+	http://stackoverflow.com/users/1542290/mr-alien
+
+	Github : https://github.com/mr-alien/fig
+
+	License : Apache 2.0
+-->
 <!DOCTYPE html>
 	<html lang="en">
 	<head>
