@@ -25,7 +25,7 @@
 					<li><a href="#" data-link="about">About</a></li>
 					<li><a href="#" data-link="license">License</a></li>
 					<li><a href="#" data-link="credits">Credits</a></li>
-					<li><a href="https://github.com/mr-alien/fig" target="_blank"><span class="icon-code-fork"></span> Fork</a></li>
+					<li><a href="https://github.com/mr-alien/fig" target="_blank" data-fork><span class="icon-code-fork"></span> Fork</a></li>
 					<li>Firefox > 27.0 - Recommended</li>
 				</ul>
 			</header>
