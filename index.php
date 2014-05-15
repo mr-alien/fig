@@ -11,19 +11,22 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Online Flat Icon Generator</title>
-		<link rel="stylesheet" href="css/default.css" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
 		<meta name="description" content="Onlines First Flat Icon Generator" />
 		<meta name="keywords" content="Flat Design, CSS, HTML, Flat Icons, Icon Generator, Icon Creator, Flat, Minimal" />
 		<meta name="author" content="Vaibhav Mehta (Mr. Alien)" />
+		<link rel="stylesheet" href="css/default.css" />
 	</head>
 	<body>
 		<div id="wrapper">
 			<header class="clear">
-				<h1 class="logo">Flat Icon Generator <sup>Beta</sup></h1>
+				<h1 class="logo">Flat Icon Generator <sup>Beta <span>v1.0</span></sup></h1>
 				<ul class="top-links">
 					<li><a href="#" data-link="about">About</a></li>
 					<li><a href="#" data-link="license">License</a></li>
 					<li><a href="#" data-link="credits">Credits</a></li>
+					<li><a href="https://github.com/mr-alien/fig" target="_blank"><span class="icon-code-fork"></span> Fork</a></li>
+					<li>Firefox > 27.0 - Recommended</li>
 				</ul>
 			</header>
 
@@ -61,15 +64,115 @@
 									<option value="e018">Bar Graph</option>
 									<option value="e019">Grid</option>
 									<option value="e01a">Expand</option>
+									<option value="e01b">Focus</option>
+									<option value="e01c">Edit</option>
+									<option value="e01d">Adjustments</option>
+									<option value="e01e">Ribbon</option>
+									<option value="e01f">Hour Glass</option>
+									<option value="e020">Lock</option>
+									<option value="e021">Megaphone</option>
+									<option value="e022">Shield</option>
+									<option value="e023">Trophy</option>
+									<option value="e024">Flag</option>
+									<option value="e025">Map</option>
+									<option value="e026">Puzzle</option>
+									<option value="e027">Basket</option>
+									<option value="e028">Envelope</option>
+									<option value="e029">Streetsign</option>
+									<option value="e02a">Telescope</option>
+									<option value="e02b">Gears</option>
+									<option value="e02c">Key</option>
+									<option value="e02d">Paperclip</option>
+									<option value="e02e">Attachment</option>
+									<option value="e02f">Price Tags</option>
+									<option value="e030">Light Bulb</option>
+									<option value="e031">Layers</option>
+									<option value="e032">Pencil</option>
+									<option value="e033">Tools</option>
+									<option value="e034">Tools 2</option>
+									<option value="e035">Scissors</option>
+									<option value="e036">Paint Brush</option>
+									<option value="e037">Magnifying Glass</option>
+									<option value="e038">Circle Compass</option>
+									<option value="e039">Line Graph</option>
+									<option value="e03a">Mic</option>
+									<option value="e03b">Strategy</option>
+									<option value="e03c">Beaker</option>
+									<option value="e03d">Caution</option>
+									<option value="e03e">Recycle</option>
+									<option value="e03f">Anchor</option>
+									<option value="e040">Profile Male</option>
+									<option value="e041">Profile Female</option>
+									<option value="e042">Bike</option>
+									<option value="e043">Wine</option>
+									<option value="e044">Hot Air Ball</option>
+									<option value="e045">Globe</option>
+									<option value="e046">Genius</option>
+									<option value="e047">Map Pin</option>
+									<option value="e048">Dial</option>
+									<option value="e049">Chat</option>
+									<option value="e04a">Heart</option>
+									<option value="e04b">Cloud</option>
+									<option value="e04c">Upload</option>
+									<option value="e04d">Download</option>
+									<option value="e04e">Target</option>
+									<option value="e04f">Hazardous</option>
+									<option value="e050">Pie Chart</option>
+									<option value="e051">Speedometer</option>
+									<option value="e052">Global</option>
+									<option value="e053">Compass</option>
+									<option value="e054">Lifesaver</option>
+									<option value="e055">Clock</option>
+									<option value="e056">Aperture</option>
+									<option value="e057">Quote</option>
+									<option value="e058">Scope</option>
+									<option value="e059">Alarm Clock</option>
+									<option value="e05a">Refresh</option>
+									<option value="e05b">Happy</option>
+									<option value="e05c">Sad</option>
+									<option value="e05d">Facebook</option>
+									<option value="e05e">Twitter</option>
+									<option value="e05f">Google Plus</option>
+									<option value="e060">RSS</option>
+									<option value="e061">Tumblr</option>
+									<option value="e062">LinkedIn</option>
+									<option value="e063">Dribbble</option>
+									<option value="e98c">Number</option>
+									<option value="e98d">Number 2</option>
+									<option value="e98e">Number 3</option>
+									<option value="e98f">Number 4</option>
+									<option value="e990">Number 5</option>
+									<option value="e991">Number 6</option>
+									<option value="e992">Number 7</option>
+									<option value="e993">Number 8</option>
+									<option value="e994">Number 9</option>
+									<option value="e995">Number 10</option>
+									<option value="e996">Number 11</option>
+									<option value="e997">Number 12</option>
+									<option value="e998">Number 13</option>
+									<option value="e999">Number 14</option>
+									<option value="e99a">Number 15</option>
+									<option value="e99b">Number 16</option>
+									<option value="e99c">Number 17</option>
+									<option value="e99d">Number 18</option>
+									<option value="e99e">Number 19</option>
+									<option value="e99f">Number 20</option>
+									<option value="e9a0">Quote 2</option>
+									<option value="e9a1">Quote 3</option>
+									<option value="e9a2">Tag</option>
+									<option value="e9a3">Tag 1</option>
+									<option value="e9a4">Link</option>
+									<option value="e9a5">Link 2</option>
+									<option value="e9a6">Cabinet</option>
 								</select>
 							</div>
 						</li>
 						<li>
-							<h3>Icon Size <span title="When you set the icon size, the icon glyph will re adjust the size proportionally and hence will reset the Custom Font Size.">?</span></h3>
+							<h3>Icon Size <span title="When you set the icon size, the icon glyph will re adjust the size proportionally and hence will reset the Custom Font Size."><i class="icon-question5"></i></span></h3>
 							<input type="text" id="iconRange" />
 						</li>
 						<li>
-							<h3>Font Size <span title="Make sure you set the size of the icon before setting up the font size as resetting the Icon size will lead to Reset of Custom Font Size.">?</span></h3>
+							<h3>Font Size <span title="Make sure you set the size of the icon before setting up the font size as resetting the Icon size will lead to Reset of Custom Font Size."><i class="icon-question5"></i></span></h3>
 							<input type="text" id="fontRange" />
 						</li>
 						<li>
@@ -88,7 +191,7 @@
 
 							<div class="control-group">
 							  <input id="circle" type="radio" value="circle" name="icontype" />
-							  <label for="circle">Round Icon</label>
+							  <label for="circle" title="Will get blurry edges if on Chrome">Round Icon</label>
 							</div>
 						</li>
 					</ul>
@@ -117,7 +220,7 @@
 		<div data-modal="about">
 			<span class="icon-close"></span>
 			<div class="modal-wrap">
-				<h1 class="logo">Flat Icon Generator <sup>Beta</sup></h1>
+				<h1 class="logo">Flat Icon Generator <sup>Beta <span>v1.0</span></sup></h1>
 				<p>Flat Icon Generator <sup>Beta</sup> can be used to generate Flat Icons with an ease and can be exported as .png images.</p>
 
 				<p>As of now I've not covered the features extensively but are on my list and will be added soon.</p>
@@ -139,7 +242,7 @@
 		<div data-modal="license">
 			<span class="icon-close"></span>
 			<div class="modal-wrap">
-				<h1 class="logo">Flat Icon Generator <sup>Beta</sup></h1>
+				<h1 class="logo">Flat Icon Generator <sup>Beta <span>v1.0</span></sup></h1>
 				<p>Flat Icon Generator is Licensed Under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License v2.0</a></p>
 				<br>
 				<p>As far as the Redistribution goes, refer Point 4 "Redistribution"</p>
@@ -161,7 +264,7 @@
 		<div data-modal="credits">
 			<span class="icon-close"></span>
 			<div class="modal-wrap">
-				<h1 class="logo">Flat Icon Generator <sup>Beta</sup></h1>
+				<h1 class="logo">Flat Icon Generator <sup>Beta <span>v1.0</span></sup></h1>
 				<h3>Credits</h3>
 				<ul>
 					<li><a href="http://icomoon.io/" target="_blank">IcoMoon for Glyphs</a></li>
@@ -171,17 +274,30 @@
 				</ul>
 			</div>
 		</div>
+		<!-- Pre Loader-->
+		<div id="preloader">
+		    <div id="status">
+		    	<div class="centralized">
+		    		<svg class="loader" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-120 130 451 40" enable-background="new -120 130 451 40" xml:space="preserve">
+						<path fill="none" stroke="#313131" stroke-width="5" d="M331,160c-30,0-45-20-75-20s-46,20-76,20l0,0c-30,0-45-20-75-20 s-45,20-75,20s-45-20-75-20s-45,20-75,20"/>
+					</svg><br>
+					<span>Loading...</span>
+		    	</div>
+		    </div>
+		</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/powerange.js"></script>
 		<script src="js/colorpicker.js"></script>
 		<script src="js/html2canvas.js"></script>
 		<script src="js/jquery.nicescroll.min.js"></script>
 		<script src="js/module.js"></script>
+		<script>
+			//Preloader
+			$(window).load(function() {
+			    $('#status').fadeOut();
+			    $('#preloader').delay(350).fadeOut('slow');
+			    $('body').delay(350).css({'overflow':'visible'});
+			});
+		</script>
 	</body>
 </html>
-
-
-
-
-
-

@@ -78,6 +78,10 @@ a {
 	font-size: 20px;
 }
 
+.logo sup span {
+	color: #515151;
+}
+
 #leftPanel {
 	width: 30%;
 	max-width: 400px;
@@ -124,7 +128,7 @@ a {
 #iconList {
 	background-image: url(../images/downarrow.png);
 	background-repeat: no-repeat;
-	background-position: 80% center;
+	background-position: 80% 12px;
 }
 
 .custom-dropdown {
@@ -132,18 +136,45 @@ a {
 	overflow: hidden;
 	border: 1px solid #eee;
 	margin-top: 5px;
+	height: 40px;
 }
 
 #controls select {
-	padding: 10px;
 	width: 120%;
 	border: 0;
+	padding: 10px;
+	font-family: icomoon, Source Sans Pro;
+}
+
+#controls option {
+	font-size: 18px;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 #controls li {
 	margin-bottom: 25px;
 }
 
+#controls li h3 {
+	position: relative;
+}
+
+#controls li h3 span {
+	position: absolute;
+	right: 30px;
+	cursor: help;
+}
+
+
+#controls li h3 span i {
+	font-size: 11px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #515151;
+	border-radius: 50%;
+	padding: 5px;
+}
 #controls .range-bar {
 	max-width: 75%;
 	margin-top: 20px;
@@ -171,7 +202,7 @@ a {
 
 /* Color Picker */
 
-#currentIcoBgColor {
+#ShowIcoBgColor {
 	text-transform: uppercase;
 }
 
@@ -411,7 +442,7 @@ a {
 
 [data-modal] {
 	display: none;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -447,6 +478,73 @@ a {
 	right: 20px;
 	cursor: pointer;
 }
+
+#showIconName {
+	font-family: icomoon, Source Sans Pro;
+}
+
+
+/* Pre Loader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+#status .centralized {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -80px;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.loader {
+	overflow: hidden;
+	width: 150px;
+	height: 50px;
+}
+
+.loader path {
+    stroke-dasharray:491;
+    stroke-dashoffset:0;
+    -webkit-animation:dash 3s linear infinite;
+    -moz-animation:dash 3s linear infinite;
+    -ms-animation:dash 3s linear infinite;
+    -o-animation:dash 3s linear infinite;
+    animation:dash 3s linear infinite
+}
+
+@-webkit-keyframes dash {
+    to {
+        stroke-dashoffset: 990;
+    }
+}
+
+@-moz-keyframes dash {
+    to {
+        stroke-dashoffset: 990;
+    }
+}
+
+@-ms-keyframes dash {
+    to {
+        stroke-dashoffset: 990;
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 990;
+    }
+}
+
 
 @media all and (max-width: 800px) {
 	.logo {
