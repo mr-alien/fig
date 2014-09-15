@@ -24,7 +24,6 @@
 		elem.ColorPicker(opts);
 	}
 
-
 	// Icon range options
 	var iconRange = document.querySelector('#iconRange');
 	var icoRangeOpts = {
@@ -47,10 +46,10 @@
 	var initFontRange = new initPowerRange(fontRange, fontRangeOpts);
 
 	// Handle icon range change
-	$(window).on('change', 'iconRange', function() {
-		var value = 0,
-			ico = generatedIcon;
-		ico.css({
+	$(iconRange).on('change', function() {
+		var value = 0;
+		console.log('s');
+		generatedIcon.css({
 			'height': iconRange.value + 'px',
 			'width': iconRange.value + 'px',
 			'font-size': iconRange.value / 2 + 'px',
@@ -59,11 +58,11 @@
 		if ($('input:radio[name=icontype]:checked').val() == 'circle') {
 			value = iconRange.value / 2;
 		}
-		ico.css('border-radius', value);
+		generatedIcon.css('border-radius', value);
 	});
 
 	// Handle font range change
-	$(window).on('change', 'fontRange', function() {
+	$(fontRange).on('change', function() {
 		generatedIcon.css('font-size', fontRange.value + "px");
 	});
 
